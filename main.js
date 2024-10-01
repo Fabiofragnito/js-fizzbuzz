@@ -40,11 +40,10 @@ let multipliCinque = "Buzz"
 /* stampo con un ciclo tutti i numeri compresi tra 1 e 100 */
 
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
-
-   /*  metto la condizine che i sia contemporaneamente divisibile per 5 e 3 */
+    
+    /*  metto la condizine che i sia contemporaneamente divisibile per 5 e 3 */
     if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FizzBuzz");   
+        console.log("FizzBuzz");   
     }
     
     /*  metto la condizine che i sia divisibile per 5  */
@@ -54,9 +53,13 @@ for (let i = 1; i <= 100; i++) {
     
     /*  metto la condizine che i sia divisibile per 3 */
     else if (i % 3 === 0) {
-    console.log("Fizz");
+        console.log("Fizz");
     }
+    
+    else {
+        console.log(i);
 
+    }
 }
 
 
