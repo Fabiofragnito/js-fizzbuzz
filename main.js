@@ -4,6 +4,20 @@
 //     proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 
+
+/* strumenti conosciuti */
+
+/* per sapere se un numero e divibile per 3 utilizzo l operatore modulo % che mi restituisce resto zero e quindi  e' divisibile*/
+
+/* es. (i % 3 === 0); */
+
+/* per sapere se un numero e divibile per 5 utilizzo l operatore modulo % che mi restituisce resto zero e quindi  e' divisibile*/
+
+/* es. (i % 5 === 0); */
+
+
+
+
 /* preparazione */
 
 /* la i sara un numero compreso tra 1 e 100 */
@@ -18,6 +32,12 @@ let multipliTre = "Fizz";
 /* dichiaro la variabile che sara' miultiplo di 5 e che stampera' "buzz" */
 
 let multipliCinque = "Buzz"
+
+
+
+// elaborazione
+
+
 
 
 
