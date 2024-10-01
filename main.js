@@ -42,6 +42,21 @@ let multipliCinque = "Buzz"
 for (let i = 1; i <= 100; i++) {
     console.log(i);
 
+   /*  metto la condizine che i sia contemporaneamente divisibile per 5 e 3 */
+    if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");   
+    }
+    
+    /*  metto la condizine che i sia divisibile per 5  */
+    else if (i % 5 === 0) {
+        console.log("Buzz");
+    }
+    
+    /*  metto la condizine che i sia divisibile per 3 */
+    else if (i % 3 === 0) {
+    console.log("Fizz");
+    }
+
 }
 
 
