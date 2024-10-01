@@ -21,7 +21,7 @@
 /* preparazione */
 
 /* la i sara un numero compreso tra 1 e 100 */
- 0 > i <= 100;
+//  0 > i <= 100;
 
 /* dichiaro la variabile che sara' miultiplo di 3 e che stampera' "fizz" */
 
@@ -37,6 +37,12 @@ let multipliCinque = "Buzz"
 
 // elaborazione
 
+/* stampo con un ciclo tutti i numeri compresi tra 1 e 100 */
+
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+
+}
 
 
 
