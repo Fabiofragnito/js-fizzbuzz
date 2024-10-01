@@ -25,13 +25,14 @@
 
 /* dichiaro la variabile che sara' miultiplo di 3 e che stampera' "fizz" */
 
-let multipliTre = "Fizz";
+
+//  (i % 3 === 0) = "Fizz";
 
 
 
 /* dichiaro la variabile che sara' miultiplo di 5 e che stampera' "buzz" */
 
-let multipliCinque = "Buzz"
+//  (i % 5 === 0) = "Buzz"
 
 
 
